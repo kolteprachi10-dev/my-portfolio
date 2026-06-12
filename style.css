@@ -372,6 +372,9 @@ margin-bottom:15px;
 transition:.5s;
 }
 
+.demo-placeholder{
+   text-align: center;
+}
 /* =======================
    VIDEO SECTION
 ======================= */
