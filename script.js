@@ -365,9 +365,8 @@ window.addEventListener(
 // ===============================
 
 function openImage(src) {
-    const modal = document.getElementById("imageModal");
+    document.getElementById("imageModal").style.display = "block";
     document.getElementById("modalImg").src = src;
-    modal.style.display = "flex";
 }
 
 function closeImage() {
