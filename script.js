@@ -374,6 +374,18 @@ function closeImage() {
 }
 
 // ===============================
+// achievement image 
+// ===============================
+
+function openImage(src) {
+    document.getElementById("imageModal").style.display = "block";
+    document.getElementById("modalImg").src = src;
+}
+
+function closeImage() {
+    document.getElementById("imageModal").style.display = "none";
+}
+// ===============================
 // CONSOLE MESSAGE
 // ===============================
 
