@@ -363,7 +363,12 @@ Achievements & Certificates
 
 <div class="card achievement">
 
-<img src="images/hackvision certificate.png" alt="Certificate">
+<img src="images/hackvision certificate.png" alt="Certificate" class="clickable-img" onclick="openImage(this.src)">
+
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeImage()">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
 
 <h3>
 Hackathon Participation (Hackvision)
